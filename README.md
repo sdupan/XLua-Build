@@ -29,7 +29,7 @@
 
 ### Android
 
-1、安装CentOS 7.2 x64
+1、下载并安装 [CentOS 7.2 x64](https://www.centos.org/download/)
 
 2、升级gcc/g++到9
 
@@ -38,6 +38,7 @@
 4、下载 [Android NDK r21](https://developer.android.google.cn/ndk/downloads/)，解压到指定目录，如/home/android-ndk
 
 5、vi ~/.bashrc
+
 6、最后一行添加：export PATH=$PATH:/home/cmake/bin
 
 7、最后一行添加：export ANDROID_NDK=/home/android-ndk
