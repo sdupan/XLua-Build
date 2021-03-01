@@ -11,8 +11,6 @@
 
 * LPeg
 
-* FFI for lua53
-
 
 ## 【编译】
 
@@ -20,9 +18,9 @@
 
 ### Windows
 
-1、下载并安装[Visual Studio 2019](https://visualstudio.microsoft.com/zh-hans/vs/)
+1、下载并安装 [Visual Studio 2019](https://visualstudio.microsoft.com/zh-hans/vs/)
 
-2、下载并安装[CMake 3.19.5](https://cmake.org/download/)
+2、下载并安装 [CMake 3.19.5](https://cmake.org/download/)
 
 3、把CMake安装目录添加到PATH环境变量，例如 C:\Program Files\CMake\bin
 
@@ -35,9 +33,9 @@
 
 2、升级gcc/g++到9
 
-3、下载[CMake 3.19.5](https://cmake.org/download/)二进制压缩包，解压到指定目录，如/home/cmake
+3、下载 [CMake 3.19.5](https://cmake.org/download/) 二进制压缩包，解压到指定目录，如/home/cmake
 
-4、下载[Android NDK r21](https://developer.android.google.cn/ndk/downloads/)，解压到指定目录，如/home/android-ndk
+4、下载 [Android NDK r21](https://developer.android.google.cn/ndk/downloads/)，解压到指定目录，如/home/android-ndk
 
 5、vi ~/.bashrc
 6、最后一行添加：export PATH=$PATH:/home/cmake/bin
@@ -51,7 +49,7 @@
 
 ### iOS/MAC
 
-1、下载[CMake 3.19.5](https://cmake.org/download/)安装包，安装到Application目录
+1、下载 [CMake 3.19.5](https://cmake.org/download/) 安装包，安装到Application目录
 
 2、vi ~/.bash_profile 
 
